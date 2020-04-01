@@ -13,16 +13,16 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "firefox-brands"
+          "firefox"
         ]
       },
       "attrs": [
         {}
       ],
       "properties": {
-        "order": 5,
+        "order": 11,
         "id": 0,
-        "name": "firefox-brands",
+        "name": "firefox",
         "prevSize": 32
       },
       "setIdx": 0,
