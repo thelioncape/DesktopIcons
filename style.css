@@ -15,6 +15,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-user-lock {
+  width: 1.25em;
+}
+
 .icon-telegram {
   width: 0.875em;
 }
