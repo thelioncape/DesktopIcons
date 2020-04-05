@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'DesktopIcons';
-  src:  url('fonts/DesktopIcons.eot?ojtbsu');
-  src:  url('fonts/DesktopIcons.eot?ojtbsu#iefix') format('embedded-opentype'),
-    url('fonts/DesktopIcons.ttf?ojtbsu') format('truetype'),
-    url('fonts/DesktopIcons.woff?ojtbsu') format('woff'),
-    url('fonts/DesktopIcons.svg?ojtbsu#DesktopIcons') format('svg');
+  src:  url('fonts/DesktopIcons.eot?9u1nu5');
+  src:  url('fonts/DesktopIcons.eot?9u1nu5#iefix') format('embedded-opentype'),
+    url('fonts/DesktopIcons.ttf?9u1nu5') format('truetype'),
+    url('fonts/DesktopIcons.woff?9u1nu5') format('woff'),
+    url('fonts/DesktopIcons.svg?9u1nu5#DesktopIcons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.DesktopIcons-headphones:before {
+  content: "\e906";
+}
 .DesktopIcons-steam-icon:before {
   content: "\e905";
 }
