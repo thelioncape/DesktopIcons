@@ -15,6 +15,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-steam-icon {
+  width: 0.96875em;
+}
+
 .icon-user-lock {
   width: 1.25em;
 }
