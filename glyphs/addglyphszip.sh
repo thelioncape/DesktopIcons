@@ -5,13 +5,12 @@ if [ -z "$1" ]; then
 	exit
 fi
 
-mv "$1" "."
 rm demo-external-svg.html demo.html Read\ Me.txt selection.json style.css
 rm svgxuse.js symbol-defs.svg value with
 rm -rf demo-files PNG SVG
 
-unzip icomoon.zip
-rm icomoon.zip
+unzip $1 -d .
+rm $1
 
 exit 0
 
