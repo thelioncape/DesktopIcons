@@ -6,12 +6,11 @@ if [ -z "$1" ]; then
 fi
 
 mv "$1" "."
-rm demo-external-svg.html demo.html Read\ Me.txt selection.json style.css
-rm svgxuse.js symbol-defs.svg value with
-rm -rf demo-files PNG SVG
+rm -rf demo-files fonts
+rm demo.html Read\ Me.txt selection.json style.css
 
-unzip icomoon.zip
-rm icomoon.zip
+unzip icomoon-v1.0.zip
+rm icomoon-v1.0.zip
 
 exit 0
 
