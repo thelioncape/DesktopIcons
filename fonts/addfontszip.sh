@@ -5,12 +5,11 @@ if [ -z "$1" ]; then
 	exit
 fi
 
-mv "$1" "."
 rm -rf demo-files fonts
 rm demo.html Read\ Me.txt selection.json style.css
 
-unzip icomoon-v1.0.zip
-rm icomoon-v1.0.zip
+unzip $1 -d .
+rm $1
 
 exit 0
 
