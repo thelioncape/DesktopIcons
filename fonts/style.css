@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'DesktopIcons';
-  src:  url('fonts/DesktopIcons.eot?9u1nu5');
-  src:  url('fonts/DesktopIcons.eot?9u1nu5#iefix') format('embedded-opentype'),
-    url('fonts/DesktopIcons.ttf?9u1nu5') format('truetype'),
-    url('fonts/DesktopIcons.woff?9u1nu5') format('woff'),
-    url('fonts/DesktopIcons.svg?9u1nu5#DesktopIcons') format('svg');
+  src:  url('fonts/DesktopIcons.eot?500qsc');
+  src:  url('fonts/DesktopIcons.eot?500qsc#iefix') format('embedded-opentype'),
+    url('fonts/DesktopIcons.ttf?500qsc') format('truetype'),
+    url('fonts/DesktopIcons.woff?500qsc') format('woff'),
+    url('fonts/DesktopIcons.svg?500qsc#DesktopIcons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,7 +13,7 @@
 [class^="DesktopIcons-"], [class*=" DesktopIcons-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'DesktopIcons' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.DesktopIcons-plexamp:before {
+  content: "\e907";
+}
 .DesktopIcons-headphones:before {
   content: "\e906";
 }
